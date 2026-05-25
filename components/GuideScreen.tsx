@@ -101,7 +101,7 @@ export const GuideScreen: React.FC<GuideScreenProps> = ({ onBack }) => {
               <div className="space-y-3">
                 {[
                   { step: "1", text: "Abra a chapa metálica de saída de fumaça (duto traseiro) antes de acender." },
-                  { step: "2", text: "Posicione duas toras paralelas paralelas e a acendalha ecológica no centro." },
+                  { step: "2", text: "Posicione duas toras paralelas e a acendalha ecológica no centro." },
                   { step: "3", text: "Acenda a acendalha e coloque pequenas lascas de madeira por cima até pegar fogo." },
                   { step: "4", text: "Adicione as toras maiores gradualmente conforme o fogo se estabilizar." }
                 ].map((s, idx) => (
@@ -113,7 +113,7 @@ export const GuideScreen: React.FC<GuideScreenProps> = ({ onBack }) => {
               </div>
             </div>
 
-            <div className="bg-red-50/50 rounded-2xl p-5 border border-red-150 shadow-sm">
+            <div className="bg-red-50/50 rounded-2xl p-5 border border-red-200 shadow-sm">
               <div className="flex items-center gap-2 mb-3 text-red-800">
                 <ShieldAlert size={18} />
                 <h3 className="font-serif text-base font-semibold">Segurança Importante</h3>
