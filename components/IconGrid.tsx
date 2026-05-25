@@ -21,7 +21,7 @@ const menuItems: MenuItem[] = [
   { id: '8', label: 'Gastronomia', iconName: 'Utensils', targetScreen: 'RESTAURANTS' },
   { id: '9', label: 'Spa & Lazer', iconName: 'Trees', targetScreen: 'SERVICES' }, 
   { id: '10', label: 'Toalhas & Lareira', iconName: 'LifeBuoy', targetScreen: 'GUIDE' }, 
-  { id: '11', label: 'Recepção', iconName: 'MessageSquareText', externalUrl: 'https://wa.me/5535984687353?text=Ol%C3%A1%2C%20preciso%20de%20ajuda!' },
+  { id: '11', label: 'Recepção', iconName: 'MessageSquareText', externalUrl: 'https://wa.me/5535984691082?text=Ol%C3%A1%2C%20preciso%20de%20ajuda!' },
   { id: '12', label: 'Nossas Regras', iconName: 'BookOpen', targetScreen: 'GUIDE' }, 
 ];
 

@@ -106,7 +106,7 @@ const App: React.FC = () => {
 
             {/* WhatsApp Floating Button — contato da pousada */}
             <a
-              href="https://wa.me/5535984687353?text=Ol%C3%A1%2C%20sou%20h%C3%B3spede%20e%20preciso%20de%20ajuda!"
+              href="https://wa.me/5535984691082?text=Ol%C3%A1%2C%20sou%20h%C3%B3spede%20e%20preciso%20de%20ajuda!"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Falar com a pousada pelo WhatsApp"
@@ -141,14 +141,14 @@ const App: React.FC = () => {
 
           {/* Headline B2B — fala com o DONO da pousada */}
           <div className="space-y-3">
-            <p className="text-[10px] uppercase tracking-[0.25em] text-sand-400 font-medium">
+            <p className="text-xs uppercase tracking-[0.25em] text-sand-400 font-medium">
               Ao lado → o que o seu hóspede vai ver
             </p>
-            <h1 className="font-serif text-3xl lg:text-5xl font-medium tracking-tight leading-tight text-white">
+            <h1 className="font-serif text-4xl lg:text-6xl font-medium tracking-tight leading-tight text-white">
               Seu hóspede nunca mais vai te perguntar<br />
               <span className="italic text-sand-300 font-normal">"qual é a senha do Wi-Fi?"</span>
             </h1>
-            <p className="text-sand-200/80 text-xs lg:text-base font-light max-w-lg leading-relaxed">
+            <p className="text-sand-200/80 text-sm lg:text-lg font-light max-w-lg leading-relaxed">
               O <strong className="text-sand-100 font-semibold">Guia Digital</strong> é um link personalizado que você manda na reserva. O hóspede abre no celular e encontra tudo — antes de chegar.
             </p>
           </div>
@@ -177,44 +177,29 @@ const App: React.FC = () => {
           </div>
 
           {/* Card de venda */}
-          <div className="flex gap-3.5 items-start bg-white/[0.04] backdrop-blur-md rounded-2xl p-4 border border-white/5">
-            {/* QR icon */}
-            <div className="bg-white p-2.5 rounded-xl border border-neutral-800 flex items-center justify-center shrink-0 shadow-lg text-charcoal-900">
-              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
-                <rect x="2" y="2" width="6" height="6" rx="1" strokeWidth="1.5"/><rect x="4" y="4" width="2" height="2" fill="currentColor"/>
-                <rect x="16" y="2" width="6" height="6" rx="1" strokeWidth="1.5"/><rect x="18" y="4" width="2" height="2" fill="currentColor"/>
-                <rect x="2" y="16" width="6" height="6" rx="1" strokeWidth="1.5"/><rect x="4" y="18" width="2" height="2" fill="currentColor"/>
-                <rect x="10" y="3" width="2" height="2" fill="currentColor" rx="0.5"/><rect x="13" y="5" width="1" height="2" fill="currentColor"/>
-                <rect x="10" y="8" width="3" height="1.5" fill="currentColor"/><rect x="10" y="11" width="2" height="2" fill="currentColor" rx="0.5"/>
-                <rect x="3" y="10" width="2" height="2" fill="currentColor" rx="0.5"/><rect x="6" y="13" width="2" height="1" fill="currentColor"/>
-                <rect x="14" y="10" width="2" height="4" fill="currentColor" rx="0.5"/><rect x="18" y="10" width="3" height="2" fill="currentColor" rx="0.5"/>
-                <rect x="18" y="14" width="2" height="2" fill="currentColor"/>
-              </svg>
-            </div>
-
-            <div className="flex-1">
+          <div className="bg-white/[0.04] backdrop-blur-md rounded-2xl p-5 border border-white/5">
               {/* Selo urgência */}
               <div className="inline-flex items-center gap-1.5 bg-amber-500/15 border border-amber-400/30 rounded-full px-2.5 py-1 mb-2">
                 <span className="w-1.5 h-1.5 bg-amber-400 rounded-full animate-pulse" />
                 <span className="text-[10px] uppercase tracking-wider text-amber-300 font-semibold">5 vagas • 50% OFF no 1º mês</span>
               </div>
 
-              <h4 className="font-serif text-sm lg:text-base font-semibold text-white leading-snug">
+              <h4 className="font-serif text-base lg:text-lg font-semibold text-white leading-snug">
                 Pare de perder estrelas no Booking por dúvidas que poderiam ter sido respondidas antes do hóspede chegar.
               </h4>
-              <p className="text-[12px] lg:text-sm text-sand-300 font-light leading-relaxed mt-2">
-                O <span className="text-sand-100 font-medium">Guia Digital</span> entrega 1 link com tudo que o hóspede precisa — antes do check-in. Menos atrito, menos WhatsApp, menos avaliação ruim.
+              <p className="text-sm lg:text-base text-sand-300 font-light leading-relaxed mt-2">
+                O <span className="text-sand-100 font-semibold">Guia Digital</span> entrega 1 link com tudo que o hóspede precisa — antes do check-in. Menos atrito, menos WhatsApp, menos avaliação ruim.
               </p>
 
-              <ul className="mt-3 text-[12px] lg:text-sm text-sand-300 list-none space-y-1.5">
-                <li>✅ <span className="text-sand-100">Reduz avaliação ruim</span> por "não sabia que…"</li>
-                <li>✅ <span className="text-sand-100">30 min/semana</span> economizados respondendo o óbvio</li>
-                <li>✅ <span className="text-sand-100">Visual premium</span> — eleva a percepção da sua pousada</li>
-                <li>✅ <span className="text-sand-100">Eu monto tudo</span> em 48h, você não mexe em nada</li>
+              <ul className="mt-3 text-sm lg:text-base text-sand-300 list-none space-y-2">
+                <li>✅ <span className="text-sand-100 font-medium">Reduz avaliação ruim</span> por "não sabia que…"</li>
+                <li>✅ <span className="text-sand-100 font-medium">30 min/semana</span> economizados respondendo o óbvio</li>
+                <li>✅ <span className="text-sand-100 font-medium">Visual premium</span> — eleva a percepção da sua pousada</li>
+                <li>✅ <span className="text-sand-100 font-medium">Eu monto tudo</span> em 48h, você não mexe em nada</li>
               </ul>
 
               {/* Mini prova social */}
-              <div className="mt-3 flex items-center gap-2 text-[11px] text-sand-400">
+              <div className="mt-3 flex items-center gap-2 text-xs text-sand-400">
                 <div className="flex -space-x-1.5" aria-hidden="true">
                   <div className="w-5 h-5 rounded-full bg-gradient-to-br from-emerald-400 to-emerald-600 border border-sand-900" />
                   <div className="w-5 h-5 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 border border-sand-900" />
@@ -223,29 +208,37 @@ const App: React.FC = () => {
                 <span>Pousadas em Monte Verde já testando</span>
               </div>
 
-              {/* Preço */}
-              <div className="mt-3 flex items-baseline gap-3 flex-wrap">
-                <span className="text-[14px] lg:text-base text-white font-bold">
-                  R$ 79<span className="text-[10px] text-sand-400 font-light">/mês</span>
-                </span>
-                <span className="text-[10px] text-sand-500 line-through">R$ 158</span>
-                <span className="text-[11px] text-sand-500 font-light">• sem fidelidade • sem taxa de criação</span>
+              {/* Preço com taxa de instalação */}
+              <div className="mt-4 bg-white/5 rounded-xl p-3 border border-white/10 space-y-2">
+                <div className="flex items-baseline justify-between">
+                  <span className="text-sand-400 text-xs uppercase tracking-wider">Instalação (única vez)</span>
+                  <span className="text-white font-bold text-base">R$ 60</span>
+                </div>
+                <div className="h-px bg-white/10" />
+                <div className="flex items-baseline justify-between">
+                  <span className="text-sand-400 text-xs uppercase tracking-wider">Mensalidade</span>
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-sand-500 text-xs line-through">R$ 158</span>
+                    <span className="text-white font-bold text-base">R$ 79<span className="text-sand-400 text-xs font-light">/mês</span></span>
+                  </div>
+                </div>
+                <div className="h-px bg-white/10" />
+                <p className="text-sand-400 text-xs font-light">Sem fidelidade • Domínio próprio incluso • Suporte via WhatsApp</p>
               </div>
 
               {/* CTA — botão WhatsApp real */}
               <a
-                href="https://wa.me/5535984687353?text=Ol%C3%A1%20Vitor%2C%20quero%20uma%20das%205%20vagas%20com%2050%25%20OFF%20do%20Guia%20Digital%21"
+                href="https://wa.me/5535984691082?text=Ol%C3%A1%20Vitor%2C%20quero%20uma%20das%205%20vagas%20com%2050%25%20OFF%20do%20Guia%20Digital%21"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center justify-center gap-2 w-full bg-emerald-500 hover:bg-emerald-400 text-emerald-950 font-semibold text-[12px] lg:text-sm rounded-xl px-4 py-3 transition-all active:scale-[0.98] shadow-lg shadow-emerald-500/20"
+                className="mt-4 inline-flex items-center justify-center gap-2 w-full bg-emerald-500 hover:bg-emerald-400 text-emerald-950 font-semibold text-sm lg:text-base rounded-xl px-4 py-3.5 transition-all active:scale-[0.98] shadow-lg shadow-emerald-500/20"
               >
-                <WhatsAppIcon className="w-4 h-4" />
+                <WhatsAppIcon className="w-5 h-5" />
                 Quero garantir minha vaga
               </a>
-              <p className="mt-2 text-[10px] text-sand-500 text-center font-light select-text">
-                Resposta em até 1h • (35) 98468-7353
+              <p className="mt-2 text-xs text-sand-500 text-center font-light select-text">
+                Resposta em até 1h • (35) 98469-1082
               </p>
-            </div>
           </div>
         </div>
 
