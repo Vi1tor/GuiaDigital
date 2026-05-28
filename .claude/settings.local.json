@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\Vitor\\\\Desktop\\\\GuiaDeBoasVindas\" -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(cd \"/c/Users/Vitor/Desktop/GuiaDeBoasVindas\" && find . -type f -not -path './.git/*' -not -path './.claude/*' | head -50)",
+      "Read(//c/c/Users/Vitor/Desktop/**)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(python3 *)",
+      "PowerShell(python \"$env:USERPROFILE\\\\.claude\\\\skills\\\\ui-ux-pro-max-skill\\\\src\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"luxury hotel hospitality welcome\" --domain style --stack react -n 3)",
+      "PowerShell(python \"$env:USERPROFILE\\\\.claude\\\\skills\\\\ui-ux-pro-max-skill\\\\src\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"luxury hotel hospitality\" --domain style -n 4; python \"$env:USERPROFILE\\\\.claude\\\\skills\\\\ui-ux-pro-max-skill\\\\src\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"warm earth boutique hotel\" --domain color -n 3; python \"$env:USERPROFILE\\\\.claude\\\\skills\\\\ui-ux-pro-max-skill\\\\src\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"hotel mobile app onboarding\" --domain ux -n 3)"
+    ]
+  }
+}
