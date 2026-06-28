@@ -239,14 +239,14 @@ const App: React.FC = () => {
             <div className="mt-4 bg-white/5 rounded-xl p-3 border border-white/10 space-y-2">
               <div className="flex items-baseline justify-between">
                 <span className="text-sand-400 text-xs uppercase tracking-wider">Instalação (única vez)</span>
-                <span className="text-white font-bold text-base">R$ 60</span>
+                <span className="text-white font-bold text-base">R$</span>
               </div>
               <div className="h-px bg-white/10" />
               <div className="flex items-baseline justify-between">
                 <span className="text-sand-400 text-xs uppercase tracking-wider">Mensalidade</span>
                 <div className="flex items-baseline gap-2">
-                  <span className="text-sand-500 text-xs line-through">R$ 158</span>
-                  <span className="text-white font-bold text-base">R$ 79<span className="text-sand-400 text-xs font-light">/mês</span></span>
+                  <span className="text-sand-500 text-xs line-through">R$</span>
+                  <span className="text-white font-bold text-base">R$<span className="text-sand-400 text-xs font-light">/mês</span></span>
                 </div>
               </div>
               <div className="h-px bg-white/10" />
